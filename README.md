@@ -3,10 +3,12 @@ Project will be using an alternative color space that represents colors by human
 
 Using C++ I will transform a image into grayscale, illini orange, create spotlight in centre and add a watermark.
 
-#### This is the original image<br>
+#### This is the original image
+
 <img src="https://raw.githubusercontent.com/Iltwats/Image-Transformation/master/alma.png" width="250" height="250">
 
-#### This code will transform this image into these:<br>
+#### This code will transform this image into these:
+
 <img src="https://raw.githubusercontent.com/Iltwats/Image-Transformation/master/Result/out-grayscale.png" width="250" height="250"> 
 <img src="https://raw.githubusercontent.com/Iltwats/Image-Transformation/master/Result/out-illinify.png" width="250" height="250"><br>
 <img src="https://raw.githubusercontent.com/Iltwats/Image-Transformation/master/Result/out-spotlight.png" width="250" height="250">
