@@ -29,7 +29,7 @@ Using C++ I will transform a image into grayscale, illini orange, create spotlig
 
 - Methods for creating empty PNGs, resizing an image, etc. You can view uiuc/PNG.h and uiuc/PNG.cpp for complete details.
 
-
+***The output folder is in Result folder and the main image transformation code is in ImageTransform.cpp***
 
 
 
