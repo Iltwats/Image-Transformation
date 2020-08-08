@@ -7,7 +7,7 @@ Using C++ I will transform a image into grayscale, illini orange, create spotlig
 
 <img src="https://raw.githubusercontent.com/Iltwats/Image-Transformation/master/alma.png" width="250" height="250">
 
-**This code will transform this image into these:**
+**This code will transform this image into these:**<br>
 <img src="https://raw.githubusercontent.com/Iltwats/Image-Transformation/master/Result/out-grayscale.png" width="250" height="250"> 
 <img src="https://raw.githubusercontent.com/Iltwats/Image-Transformation/master/Result/out-illinify.png" width="250" height="250"><br>
 <img src="https://raw.githubusercontent.com/Iltwats/Image-Transformation/master/Result/out-spotlight.png" width="250" height="250">
