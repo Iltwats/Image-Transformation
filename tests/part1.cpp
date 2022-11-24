@@ -1,7 +1,4 @@
 
-// Original version by CS 225 Course Staff
-// CS 400 revision with member type testing by Eric Huber
-
 #include <type_traits>
 
 #include "../uiuc/catch/catch.hpp"

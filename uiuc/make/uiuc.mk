@@ -1,5 +1,3 @@
-# Created by Wade Fagen-Ulmschneider <waf@illinois.edu>
-# A few tweaks for CS 400 by Eric Huber
 
 ZIP_FILE = ImageTransform_submission.zip
 COLLECTED_FILES = uiuc/HSLAPixel.h uiuc/HSLAPixel.cpp ImageTransform.h ImageTransform.cpp
