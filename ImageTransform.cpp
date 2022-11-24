@@ -6,16 +6,6 @@
 #include "uiuc/HSLAPixel.h"
 #include "ImageTransform.h"
 
-/* ******************
-(Begin multi-line comment...)
-
-Write your name and email address in the comment space here:
-
-Name:
-Email:
-
-(...end multi-line comment.)
-******************** */
 
 using uiuc::PNG;
 using uiuc::HSLAPixel;
@@ -28,15 +18,10 @@ using uiuc::HSLAPixel;
  * @return The grayscale image.
  */
 PNG grayscale(PNG image) {
-  /// This function is already written for you so you can see how to
-  /// interact with our PNG class.
+  
   for (unsigned x = 0; x < image.width(); x++) {
     for (unsigned y = 0; y < image.height(); y++) {
       HSLAPixel & pixel = image.getPixel(x, y);
-
-      // `pixel` is a reference to the memory stored inside of the PNG `image`,
-      // which means you're changing the image directly. No need to `set`
-      // the pixel since you're directly changing the memory of the image.
       pixel.s = 0;
     }
   }
@@ -78,18 +63,14 @@ PNG createSpotlight(PNG image, int centerX, int centerY) {
       double dist = sqrt(pow(dist_x,2) + pow(dist_y,2));
 
       if (dist > 160){
-	pixel.l = pixel.l * 0.2;
+	      pixel.l = pixel.l * 0.2;
       }
       else{
         pixel.l = pixel.l * (1 - (0.005 * dist));
       }
     }
   }
-  return image;
-
-
-  return image;
-  
+  return image;  
 }
  
 
@@ -112,14 +93,16 @@ PNG illinify(PNG image) {
       HSLAPixel & pixel = image.getPixel(x, y);
 
       int max = 360;
+
       int orangeDistance = abs(pixel.h - orangeValue);
       orangeDistance = orangeDistance < max/2 ? orangeDistance : max - orangeDistance;
+
       int blueDistance = abs(pixel.h - blueValue);
       blueDistance = blueDistance < max/2 ? blueDistance : max - blueDistance;
+
       pixel.h = (orangeDistance < blueDistance) ? orangeValue : blueValue;
     }
   }
-
   return image;
 }
  
@@ -146,15 +129,11 @@ PNG watermark(PNG firstImage, PNG secondImage) {
 
       if (x < secondImageWidth && y < secondImageHeight) {
         HSLAPixel & secondPixel = secondImage.getPixel(x, y);
-        if (secondPixel.l == 1)
-        {
+        if (secondPixel.l == 1){
           pixel.l = pixel.l < 0.8 ? pixel.l + 0.2 : 1.0;
-        }
-        
+        } 
       }
-      
     }
   }
-
   return firstImage;
 }
