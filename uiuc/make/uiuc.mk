@@ -77,9 +77,8 @@ tidy: clean
 	rm -rf doc
 
 zip:
-	@echo "!!! Preparing submission zip with student code..."
-	@echo "!!! Make sure you have already tried compiling and testing your code"
-	@echo "!!! thoroughly before submitting the zip on Coursera!"
+	@echo "!!! Preparing submission zip ..."
+	@echo "!!! Make sure you have already tried compiling and testing your code throughly"
 	@echo ""
 	@echo "Removing any previous version of zip file..."
 	rm -rf $(ZIP_FILE)
