@@ -35,6 +35,7 @@ Using C++ I will transform a image into grayscale, illini orange, create spotlig
 Type the following commands in the terminal:
     1. `make` to build the executable for the code.
     2. `./ImageTransform` to run this executable to generate the output.
+
 If you want to run the tests then:
     1. `make test` to build the test executable files.
     2. `./test ` to run test executable files.
