@@ -32,11 +32,11 @@ Using C++ I will transform a image into grayscale, illini orange, create spotlig
 ***The output folder is in Result folder and the main image transformation code is in ImageTransform.cpp***
 
 ### Running and Compiling the code
-Type the following commands in the terminal:
+Type the following commands in the terminal:<br>
     1. `make` to build the executable for the code.<br>
     2. `./ImageTransform` to run this executable to generate the output.<br>
 
-If you want to run the tests then:
+If you want to run the tests then:<br>
     1. `make test` to build the test executable files.<br>
     2. `./test ` to run test executable files.<br>
 
